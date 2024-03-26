@@ -1,5 +1,6 @@
 File structure: 
 * Islam
-* Philosophy
+* * Videos
+* Philosophy / Logic
 * Machine Learning
 * Miscellaneous
