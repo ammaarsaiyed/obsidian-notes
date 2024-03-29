@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8fdc3d855fb3352f",
+        "id": "7b816b39ab3fb2e4",
         "type": "tabs",
         "children": [
           {
-            "id": "a9c324da906e8154",
+            "id": "660ec42fca8d48da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md",
+                "file": "Philosophy/Misc/Claude - Western shift to rationalism.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "Philosophy/Misc/Claude - Western shift to rationalism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md",
+                "file": "Philosophy/Misc/Claude - Western shift to rationalism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "Philosophy/Misc/Claude - Western shift to rationalism.md"
               }
             }
           }
@@ -146,8 +146,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a9c324da906e8154",
+  "active": "660ec42fca8d48da",
   "lastOpenFiles": [
-    "Untitled"
+    "Philosophy/Misc",
+    "readme.md",
+    "Philosophy/Misc/Claude - Western shift to rationalism.md",
+    "Islam/Misc Notes/Untitled.md",
+    "Islam/Videos/Khairabadi Institute - Sayyid Ma'an al Dabbagh.md",
+    "Islam/Misc",
+    "Islam/Videos/Untitled.canvas",
+    "Islam/Videos",
+    "Islam",
+    "Readme.md",
+    "Philosophy/Videos/Professor Dave.md",
+    "Philosophy/Videos",
+    "Philosophy"
   ]
 }
