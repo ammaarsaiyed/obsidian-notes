@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Philosophy/Misc/Problem of Induction.md",
+                "file": "Philosophy/Misc/Western shift to rationalism.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300.5
   },
   "right": {
     "id": "4a6efc0f5c0d39e2",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Philosophy/Misc/Problem of Induction.md",
+                "file": "Philosophy/Misc/Western shift to rationalism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Philosophy/Misc/Problem of Induction.md",
+                "file": "Philosophy/Misc/Western shift to rationalism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Philosophy/Misc/Problem of Induction.md"
+                "file": "Philosophy/Misc/Western shift to rationalism.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "660ec42fca8d48da",
   "lastOpenFiles": [
-    "Philosophy/Misc/Claude - Western shift to rationalism.md",
-    "Philosophy/Misc/Problem of Induction.md",
+    "Philosophy/Misc/Hume's Problem of Induction.md",
+    "Philosophy/Misc/The Origin of Man.md",
+    "Philosophy/Videos/Professor Dave.md",
+    "Philosophy/Misc/Western shift to rationalism.md",
     "Philosophy/Misc",
     "readme.md",
     "Islam/Misc Notes/Untitled.md",
@@ -159,7 +161,6 @@
     "Islam/Videos",
     "Islam",
     "Readme.md",
-    "Philosophy/Videos/Professor Dave.md",
     "Philosophy/Videos",
     "Philosophy"
   ]

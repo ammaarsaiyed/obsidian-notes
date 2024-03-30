@@ -1,5 +1,3 @@
-Got it, I understand your point about not needing to focus too much on the possibility of radically new phenomena emerging, as the crux of the argument is about the plausibility of humans descending from a divinely created being (Adam) rather than evolving from other species. With that in mind, here's a tweaked version:
-
 The Islamic metaphysical doctrine of occasionalism posits that the laws of nature, though created by God, are not inherently causative or necessary, but rather contingent upon the continuous will and sustenance of the Divine. This understanding allows for the possibility of miracles—events that transcend the observed regularities of nature, thereby seeming to violate the laws as understood through empirical science.
 
 Secular rationalists ground their worldview in empirical observations and inductive reasoning. However, they must contend with the philosophical problem of induction, highlighted by David Hume. This problem challenges the justification for inferring universal, necessary laws from finite observations of correlations between phenomena. Repeated observation alone cannot logically necessitate a phenomenon's continued future occurrence.
@@ -11,3 +9,6 @@ Within this context, the Islamic belief in the divine creation of humans, as emb
 Potential objections may include: (1) the Humean problem does not necessitate accepting miracles or supernatural events; (2) alternative philosophical positions can account for novelty without invoking the supernatural; (3) differing interpretations of Islamic metaphysics and occasionalism exist; and (4) the argument does not directly engage with the empirical evidence supporting evolutionary theory.
 
 By grounding the argument in the philosophical tensions surrounding induction, causation, and the constraints of empirical observation, while acknowledging potential counterarguments, this formulation presents a rationale for the plausibility of the Islamic belief in human origins without overemphasizing the possibility of radically new phenomena.
+
+---
+The core argument is not / should not be necessarily advocating for the Islamic belief of humans descending from the divinely created Adam, but rather questioning whether secular rationalists can definitively rule out that possibility
