@@ -6,3 +6,4 @@ Abu Hurayra reported that the Messenger of Allah, may Allah bless him and grant 
 
 ***
 
+So someone who knows the Qur'an must praise Allah, be thankful for His blessing, remember Him, rely on Him, seek His help, desire Him and cling to Him. He must remember death and prepare for it. He should fear his wrong actions and hope for his Lord's pardon. **His fear when his health is good should be stronger since he does not know what his seal will be. When he is close to dying, his hope should be stronger in himself because of his good opinion of Allah.**
