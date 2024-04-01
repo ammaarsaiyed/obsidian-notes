@@ -11,3 +11,7 @@ So someone who knows the Qur'an must praise Allah, be thankful for His blessing,
 ***
 
 It is reported from Ibn 'Umar that the Messenger of Allah, may Allah bless him and grant him peace, said, " If someone recites the Qur'an without its correct grammar, an angel is entrusted to him to write for him, as is revealed, ten good deeds for every letter. When he uses correct grammar for some of it and fails to do so for some of it, two angels are entrusted who write down every letter with twenty good deeds. If he inflects it correctly, four angels are entrusted to him to write down seventy good deeds for every letter."
+
+***
+
+It is reported from Jundub that the Messenger of Allah bless him and grant him peace, said, "Anyone who speaks on the Qur'an by his own opinion and is right is still wrong."
