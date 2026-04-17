@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tajdid/thinkers.md",
+                "file": "readme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "thinkers"
+              "title": "readme"
             }
           }
         ]
@@ -166,14 +166,15 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "660ec42fca8d48da",
   "lastOpenFiles": [
-    "readme.md",
     "Tajdid/thinkers.md",
     "Islam/Quran/Tafsir Qurtubi vol. 1 - Memorise.md",
+    "readme.md",
     "Islam/Quran",
     "Tajdid",
     "Islam/Videos/Khairabadi Institute - Sayyid Ma'an al Dabbagh.md",
