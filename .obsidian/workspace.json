@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Videos/Khairabadi Institute - Sayyid Ma'an al Dabbagh.md",
+                "file": "readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islam/Videos/Khairabadi Institute - Sayyid Ma'an al Dabbagh.md",
+                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islam/Videos/Khairabadi Institute - Sayyid Ma'an al Dabbagh.md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/Videos/Khairabadi Institute - Sayyid Ma'an al Dabbagh.md"
+                "file": "readme.md"
               }
             }
           }
@@ -146,8 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "660ec42fca8d48da",
+  "active": "e157b31001a6af71",
   "lastOpenFiles": [
+    "Tajdid",
+    "Islam/Videos/Khairabadi Institute - Sayyid Ma'an al Dabbagh.md",
     "readme.md",
     "Philosophy/Videos/Professor Dave.md",
     "Philosophy/Videos/Isagoge - Hamza Yusuf.md",
@@ -159,7 +161,6 @@
     "Philosophy/Misc/The Origin of Man.md",
     "Philosophy/Misc",
     "Islam/Misc Notes/Untitled.md",
-    "Islam/Videos/Khairabadi Institute - Sayyid Ma'an al Dabbagh.md",
     "Islam/Misc",
     "Islam/Videos/Untitled.canvas",
     "Islam/Videos",

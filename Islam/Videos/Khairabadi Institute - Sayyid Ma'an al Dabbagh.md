@@ -12,7 +12,7 @@ He planned to travel, go do ziyarah and return without anybody knowing
 
 The day of the departure, he was about to leave home, his honourable wife - Sayyidah Umm Ahmad - came and said to him that she had a dream that he was leaving - and travelling to Baghdad
 
-She says, I had a dream and in my dream, a young man gave me a card, and when he gave me the card he said to me this is an inviation from Shaykh Abdul Qadir al Jilani for Sayyid Muhammad al Makki - give this to him
+She says, I had a dream and in my dream, a young man gave me a card, and when he gave me the card he said to me this is an invitation from Shaykh Abdul Qadir al Jilani for Sayyid Muhammad al Makki - give this to him
 
 On the card, it said the name Tariq - and that he would be the Sayyid's host  - she was already given this basharah
 
@@ -28,4 +28,4 @@ At this point - he asks the man what is name is, and he says Tariq
 
 He says, I am a soldier from Mosul - I had a dream where Shaykh Abdul Qadir al Jilani came to me and said to me my guest from Makkah is coming so you will host him
 
-After this they parted ways - and after this visist - the feeling came back into the hand of Shaykh Muhammad
+After this they parted ways - and after this visit - the feeling came back into the hand of Shaykh Muhammad
