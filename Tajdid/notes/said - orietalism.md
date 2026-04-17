@@ -1,0 +1,6 @@
+* the orient refers to the eastern world and the occident refers to the western world, usually contrasting Asia with Europe and North America
+* the academic discipline of orientalism was founded in 1312 when medieval european universities began to offer instruction in arabic, greek, hebrew -- but some of its assumptions, namely the irreconcilable difference between the East and the West, the danger of the East, and the desire of the West to dominate date back to the ancient greeks
+* by 19th century, orientalist discourse has become entrenched in french and british societies - and used to justify colonial projects such as in Egypt
+* in the 20th century, it is less academic and more geopolitical, as trade and modernisation increase but colonial territory is lost. however, its concepts are entrenched that the figure of the white man is seen both in literature and real life
+* post-war, it reaches a crisis as it cannot explain things like nationalist and independent movements, having deemed oriental people as irrational and passive
+* eventually, orientalism moves towards the social sciences 

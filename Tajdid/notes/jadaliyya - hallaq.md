@@ -1,0 +1,6 @@
+- western civilisation is a civilisation of action par excellence (i.e.  It would seem that if Western modernity has anything to commend it, it is its penchant to do everything that can be done, an attribute which Taha, as we saw, himself recognizes)
+- speech is a secondary aspect of this civilisation
+- taha claims that "speech" in western culture has converted unethical value into a new form of ethics
+- the civilisation being a civilisation of action is secondarily definitive to its actions being disastrous and unethical. however, it has all been legitimised and rationalised by speech
+- taha claims, "the european primeval outlook is what can be done shall be done", and that it is integral to the modern project
+- hallaq says 'in the name of liberating man from bondage, european modernity instead enslaved and often annihilated peoples across the globe, and technique intended to improve the physical human condition did more than enslave its own creators'

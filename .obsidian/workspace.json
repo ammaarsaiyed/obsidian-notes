@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tajdid/notes/jadaliyya - hallaq.md",
+                "file": "Tajdid/notes/said - orietalism.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "jadaliyya - hallaq"
+              "title": "said - orietalism"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "jada",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -60,13 +60,26 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "acb5ba3f0d398849",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4a6efc0f5c0d39e2",
@@ -160,11 +173,12 @@
   },
   "active": "b93f6600f3faca32",
   "lastOpenFiles": [
+    "Tajdid/notes/jadaliyya - hallaq.md",
+    "Tajdid/notes/said - orietalism.md",
     "Untitled 2.base",
     "Untitled 1.base",
-    "Tajdid/notes/jadaliyya - hallaq.md",
-    "Tajdid/thinkers.md",
     "Untitled.base",
+    "Tajdid/thinkers.md",
     "Tajdid/notes",
     "readme.md",
     "Islam/Quran/Tafsir Qurtubi vol. 1 - Memorise.md",
@@ -183,7 +197,6 @@
     "Islam/Misc Notes/Untitled.md",
     "Islam/Misc",
     "Islam/Videos/Untitled.canvas",
-    "Islam/Videos",
     "Readme.md"
   ]
 }
