@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "readme.md",
+                "file": "Islam/Misc/full text/mufarrij.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of readme"
+              "title": "Outline of mufarrij"
             }
           },
           {
@@ -163,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -181,7 +181,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b93f6600f3faca32",
+  "active": "1c42c4f083f545bc",
   "lastOpenFiles": [
     "Islam/Misc/mufarrij al kurub.md",
     "Untitled.base",
