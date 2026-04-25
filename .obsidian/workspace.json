@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4a6efc0f5c0d39e2",
@@ -181,7 +182,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b93f6600f3faca32",
+  "active": "f987e400cf92f05c",
   "lastOpenFiles": [
     "Islam/Misc/mufarrij al kurub.md",
     "Islam/Misc/full text/mufarrij-en.md",
