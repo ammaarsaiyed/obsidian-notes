@@ -163,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -181,11 +181,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f987e400cf92f05c",
+  "active": "1c42c4f083f545bc",
   "lastOpenFiles": [
-    "Islam/Misc/full text/mufarrij-ar.md",
-    "Islam/Misc/full text/mufarrij-en.md",
     "Islam/Misc/mufarrij al kurub.md",
+    "Islam/Misc/full text/mufarrij-en.md",
+    "Islam/Misc/full text/mufarrij-ar.md",
     "Untitled.base",
     "Untitled 1.base",
     "Islam/Misc/full text",
