@@ -15,3 +15,9 @@
 		* "O Allah, suffice me with Your lawful against Your unlawful, and enrich me with Your bounty over all besides You."
 	* 141
 		* "O Allah, cast into my heart hope in You, and cut off my hope from anyone besides You, so that I hope in no one but You"
+---
+* fortress one
+	* 18: 
+		* O Allah, to You I complain of my weakness, my lack of means, and my insignificance before people. You are The Most Merciful of the merciful (Arham ar-Rahimin), You are The Lord (Rabb) of the weak, and You are my Lord. To whom do You entrust me? To a distant stranger who scowls at me, or to an enemy to whom You have given control over my affairs? If You are not angry with me, I do not care, but Your protection is broader for me. I seek refuge in the Light of Your Face, by which darkness is illuminated and the affairs of this world and the Hereafter are set right, lest Your wrath descend upon me or Your anger befall me. To You is the right to reprimand until You are pleased, and there is no power nor strength except by You.  
+		* **Context & Benefit:**
+			* Du'a of the Prophet at Ta'if after he was rejected and attacked. It is the ultimate prayer of turning to Allah when one feels entirely helpless and abandoned by worldly means.
