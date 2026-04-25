@@ -1,0 +1,1 @@
+* read manqib al shafi - may be good Arabic practise since there is no English available 
