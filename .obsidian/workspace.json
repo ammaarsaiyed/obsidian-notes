@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Misc/full text/mufarrij.md",
+                "file": "Islam/Misc/full text/mufarrij-ar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mufarrij"
+              "title": "mufarrij-ar"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/Misc/full text/mufarrij.md",
+                "file": "Islam/Misc/full text/mufarrij-ar.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of mufarrij"
+              "title": "Outline of mufarrij-ar"
             }
           },
           {
@@ -181,12 +181,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c42c4f083f545bc",
+  "active": "b93f6600f3faca32",
   "lastOpenFiles": [
+    "Islam/Misc/full text/mufarrij-en.md",
+    "Islam/Misc/full text/mufarrij-ar.md",
     "Islam/Misc/mufarrij al kurub.md",
     "Untitled.base",
     "Untitled 1.base",
-    "Islam/Misc/full text/mufarrij.md",
     "Islam/Misc/full text",
     "Islam/misc random notes to look into.md",
     "lsg/companies house - gov uk.md",
