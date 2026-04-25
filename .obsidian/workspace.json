@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Islam/Misc/full text/mufarrij-en.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4a6efc0f5c0d39e2",
@@ -185,9 +184,9 @@
   "active": "f987e400cf92f05c",
   "lastOpenFiles": [
     "Islam/Misc/mufarrij al kurub.md",
+    "Untitled.base",
     "Islam/Misc/full text/mufarrij-en.md",
     "Islam/Misc/full text/mufarrij-ar.md",
-    "Untitled.base",
     "Untitled 1.base",
     "Islam/Misc/full text",
     "Islam/misc random notes to look into.md",
