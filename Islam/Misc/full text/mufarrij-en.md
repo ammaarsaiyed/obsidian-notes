@@ -174,14 +174,14 @@ End of the speech of Imam An-Nawawi.
  God (Allah) is my Lord (Rabb) and I do not associate anything with Him.
 
 **Benefits**
-(24) Ibn Abi Ad-Dunya recorded from Ibrahim bin Khallad who said: Jibril descended upon Yaqub, peace be upon them both, so he complained to him about what he was in. He said: "Shall I not teach you a supplication that if you supplicate with it, God (Allah) will bring relief to you?" He said: "Yes." He said: "Say: O He whom no one knows how He is except Him" up to his saying: "bring relief to me." So the bearer of good news came to him.
+<<<MISSING>>>
 
 #### (25)
 **Translation**
  O He who no one knows how He is except Him, and O He whose power no one else can reach, relieve me.
 
 **Benefits**
-(25) Ibn Abi Ad-Dunya recorded from Muhammad bin Umar from a man of the people of Kufa that Jibril entered upon Yusuf, peace be upon him, in the prison and said: "Say: O God (Allahumma), O Witness who is not absent (Ya Shahidan ghayra gha'ib)" up to his saying: "and provide for me from where I do not expect." As-Suyuti said it. And Ibn Ad-Durayhim mentioned in Ghayat Al-Maghnam from Al-Khattab bin Uthman with his chain. And Al-Khara'iti recorded in Makarim Al-Akhlaq from Abdullah bin Alqamah At-Ta'i that Jibril came to Yusuf, peace be upon them both, in the prison and said: "I have been informed to teach you words; perhaps God (Allah) will benefit you by them. Say: O God (Allahumma), make for me from every distress that distresses me: a relief and a way out, and provide for me from where I do not expect."
+(24 — wrong number — check where 25 belongs) Ibn Abi Ad-Dunya recorded from Ibrahim bin Khallad who said: Jibril descended upon Yaqub, peace be upon them both, so he complained to him about what he was in. He said: "Shall I not teach you a supplication that if you supplicate with it, God (Allah) will bring relief to you?" He said: "Yes." He said: "Say: O He whom no one knows how He is except Him" up to his saying: "bring relief to me." So the bearer of good news came to him.
 
 #### (26)
 **Translation**
