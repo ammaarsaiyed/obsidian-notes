@@ -163,12 +163,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,6 +183,7 @@
   },
   "active": "23b46456d324d002",
   "lastOpenFiles": [
+    "baseline-softener.json",
     "Islam/Misc/mufarrij al kurub.md",
     "Islam/Misc/full text/mufarrij-en.md",
     "Islam/Misc/full text/mufarrij-ar.md",
