@@ -38,5 +38,17 @@
   "baseline-style@@row-lines": true,
   "baseline-style@@col-lines": true,
   "baseline-style@@tag-radius": "16px",
-  "baseline-style@@tag-border-width": 1
+  "baseline-style@@tag-border-width": 1,
+  "baseline-style@@bold-color@@light": "#6B3A2A",
+"baseline-style@@italic-color@@light": "#5C4A2A",
+"baseline-style@@text-highlight-bg@@light": "#F6C17733",
+"baseline-style@@text-selection@@light": "#DDD0CCAA",
+"baseline-style@@h2-weight": 500,
+"baseline-style@@h3-weight": 500,
+"baseline-style@@callouts-style": "callouts-outlined",
+"baseline-style@@link-color@@light": "#286983",
+"baseline-style@@link-color-hover@@light": "#56949F",
+"baseline-style@@link-external-color@@light": "#907AA9",
+"baseline-style@@link-external-decoration": "underline",
+"baseline-style@@text-normal@@light": "#2C2420"
 }
