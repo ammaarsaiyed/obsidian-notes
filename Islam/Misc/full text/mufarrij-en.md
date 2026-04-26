@@ -1,4 +1,3 @@
-# Section One
 ## The First Fortress
 
 ### Supplications
