@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Misc/full text/mufarrij-en.md",
+                "file": "Tajdid/articles/saif - between east and west.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mufarrij-en"
+              "title": "saif - between east and west"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/Misc/full text/mufarrij-en.md",
+                "file": "Tajdid/articles/saif - between east and west.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of mufarrij-en"
+              "title": "Outline of saif - between east and west"
             }
           },
           {
@@ -163,11 +163,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,12 +182,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f987e400cf92f05c",
+  "active": "b93f6600f3faca32",
   "lastOpenFiles": [
-    "Islam/Misc/mufarrij al kurub.md",
-    "Untitled.base",
     "Islam/Misc/full text/mufarrij-en.md",
     "Islam/Misc/full text/mufarrij-ar.md",
+    "Islam/Misc/mufarrij al kurub.md",
+    "Untitled.base",
     "Untitled 1.base",
     "Islam/Misc/full text",
     "Islam/misc random notes to look into.md",
