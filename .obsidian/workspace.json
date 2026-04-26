@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tajdid/articles/saif - between east and west.md",
+                "file": "Tajdid/thinkers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "saif - between east and west"
+              "title": "thinkers"
             }
           }
         ]
@@ -183,8 +183,8 @@
   },
   "active": "1f8bb30bc3f27965",
   "lastOpenFiles": [
-    "Islam/Misc/full text/mufarrij-en.md",
     "Tajdid/articles/saif - between east and west.md",
+    "Islam/Misc/full text/mufarrij-en.md",
     "Islam/Misc/mufarrij al kurub.md",
     "Islam/Misc/full text/mufarrij-ar.md",
     "baseline-softener.json",
