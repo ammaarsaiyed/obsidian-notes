@@ -9,4 +9,7 @@
 	* in reality, most people are in support of the cause (i.e. modernity, the process, etc) but perhaps just opposed to the specifics in how to go about it
 * the author concedes the 'Faustian spirit' innate to Europeans, but mentions it is not necessarily a bad thing, and that this spirit has contributed much to society
 	* perhaps this is a biased perspective due to the author being 'al Hollandi'
+	* he argues that modernity and the process being borne out of the spirit, eventually blended together - destroying the spirit by making it unbounded and unchecked. there is no longer any control on the spirit
+	* the renaissance started as a humanist project but without religion, lost any reason for human exceptionalism, which also removed the need of restraint once benefit to humanity was no longer present
+* he argues that the issue arises that Muslims also won't be able to constrain this spirit any longer as they too are modernised
 * 
