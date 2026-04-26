@@ -4,5 +4,8 @@
   "cssTheme": "Baseline",
   "baseFontSize": 13,
   "interfaceFontFamily": "Inter",
-  "textFontFamily": "Inter"
+  "textFontFamily": "Inter",
+  "enabledCssSnippets": [
+    "indents"
+  ]
 }
