@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Misc/full text/mufarrij-en.md",
-                "mode": "source",
+                "file": "Islam/Misc/mufarrij al kurub.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mufarrij-en"
+              "title": "mufarrij al kurub"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Philosophy/technology/to read.md",
+                "file": "Islam/Misc/mufarrij al kurub.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of to read"
+              "title": "Outline of mufarrij al kurub"
             }
           },
           {
@@ -184,8 +184,8 @@
   },
   "active": "23b46456d324d002",
   "lastOpenFiles": [
-    "Islam/Misc/mufarrij al kurub.md",
     "Islam/Misc/full text/mufarrij-en.md",
+    "Islam/Misc/mufarrij al kurub.md",
     "Islam/Misc/full text/mufarrij-ar.md",
     "Philosophy/technology/to read.md",
     "Tajdid/articles/saif - between east and west.md",
