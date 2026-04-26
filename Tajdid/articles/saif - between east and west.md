@@ -17,5 +17,5 @@
 * '*create communities of experts, who can rise above our weakened state of being, so that they might actually come to know how to give shape to a future Islamic civilization.*'
 	* even if one argues that we should return to the inward -- do they see no value in this?
 	* in reality, what the author is truly arguing for is education at the absolute highest level
-	* 
-* 
+	* even if one were to argue for the return to the inward which is absolutely correct. unless the form of this is uzla and luddite retreat to the mountains, how would someone in the general public be aware of all the politico-philosophical loaded ways of trying to derail them
+	* just having an understanding of the powers that be and how they may be trying to take away your way of life can help you to understand or even be better aligned to the goal of the return to the inward as this can help you to understand what things should and shouldn't be stopped

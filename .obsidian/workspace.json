@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tajdid/articles/saif - between east and west.md",
+                "file": "Philosophy/technology/to read.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "saif - between east and west"
+              "title": "to read"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tajdid/articles/saif - between east and west.md",
+                "file": "Philosophy/technology/to read.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of saif - between east and west"
+              "title": "Outline of to read"
             }
           },
           {
@@ -185,6 +185,11 @@
   "active": "23b46456d324d002",
   "lastOpenFiles": [
     "Tajdid/articles/saif - between east and west.md",
+    "Philosophy/technology/to read.md",
+    "Philosophy/technology",
+    "Tajdid/books/list.md",
+    "Tajdid/books",
+    "Tajdid/articles/strauss - the three waves of modernity.md",
     "Islam/Misc/full text/mufarrij-en.md",
     "Islam/Misc/full text/mufarrij-ar.md",
     "Islam/Misc/mufarrij al kurub.md",
@@ -204,8 +209,6 @@
     "Tajdid/notes",
     "readme.md",
     "Islam/Quran/Tafsir Qurtubi vol. 1 - Memorise.md",
-    "Islam/Quran",
-    "Tajdid",
     "Islam/Videos/Khairabadi Institute - Sayyid Ma'an al Dabbagh.md",
     "Philosophy/Videos/Professor Dave.md",
     "Philosophy/Videos/Isagoge - Hamza Yusuf.md",
