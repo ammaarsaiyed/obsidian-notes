@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Misc/full text/mufarrij-ar.md",
+                "file": "Islam/Misc/mufarrij al kurub.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mufarrij-ar"
+              "title": "mufarrij al kurub"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "4cbc261ef39c1e5c",
   "lastOpenFiles": [
+    "Islam/Misc/full text/mufarrij-ar.md",
     "Philosophy/Foundational/To Read.md",
     "Philosophy/Misc/Hume's Problem of Induction.md",
     "Philosophy/Foundational",
@@ -195,7 +196,6 @@
     "Tajdid/thinkers.md",
     "Islam/Misc/full text/mufarrij-en.md",
     "Islam/Misc/mufarrij al kurub.md",
-    "Islam/Misc/full text/mufarrij-ar.md",
     "baseline-softener.json",
     "Philosophy/technology/to read.md",
     "Philosophy/technology",
