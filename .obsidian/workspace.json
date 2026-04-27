@@ -6,7 +6,6 @@
       {
         "id": "e886b5bf77786552",
         "type": "tabs",
-        "dimension": 17.391304347826086,
         "children": [
           {
             "id": "4cbc261ef39c1e5c",
@@ -14,33 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tajdid/articles/saif - between east and west.md",
+                "file": "Tajdid/articles/strauss - the three waves of modernity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "saif - between east and west"
-            }
-          }
-        ]
-      },
-      {
-        "id": "3dfdac708bf4f78e",
-        "type": "tabs",
-        "dimension": 82.6086956521739,
-        "children": [
-          {
-            "id": "defe1d0e71c84227",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "strauss - the three waves of modernity"
             }
           }
         ]
@@ -101,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4a6efc0f5c0d39e2",
@@ -190,8 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,7 +181,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "defe1d0e71c84227",
+  "active": "4cbc261ef39c1e5c",
   "lastOpenFiles": [
     "Tajdid/articles/saif - between east and west.md",
     "Untitled.md",

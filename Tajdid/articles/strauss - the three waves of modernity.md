@@ -1,0 +1,2 @@
+- Starts of with the discussion of Spengler's book on the decline of the West - most likely inspired by it. Describes the West as the culture that emerged around the year 1000, predicting it's decline and the emergence of modernity. 
+- 
