@@ -28,4 +28,6 @@
 	* 32
 	* 36
 * fortress two 
+	* 59 for rizq?
+	* 61
 	* 
