@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Misc/full text/mufarrij-en.md",
-                "mode": "preview",
+                "file": "Islam/Misc/full text/mufarrij-ar.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mufarrij-en"
+              "title": "mufarrij-ar"
             }
           }
         ]
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4a6efc0f5c0d39e2",
@@ -143,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/Misc/full text/mufarrij-en.md",
+                "file": "Islam/Misc/full text/mufarrij-ar.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of mufarrij-en"
+              "title": "Outline of mufarrij-ar"
             }
           },
           {
