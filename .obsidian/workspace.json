@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Misc/full text/mufarrij-doc.md",
+                "file": "Islam/Misc/full text/mufarri-doc-en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mufarrij-doc"
+              "title": "mufarri-doc-en"
             }
           }
         ]
@@ -184,8 +184,8 @@
   },
   "active": "4cbc261ef39c1e5c",
   "lastOpenFiles": [
-    "Islam/Misc/full text/mufarri-doc-en.md",
     "Islam/Misc/full text/mufarrij-doc.md",
+    "Islam/Misc/full text/mufarri-doc-en.md",
     "Islam/Misc/full text/mufarrij-ar.md",
     "Islam/Misc/full text/mufarrij-en.md",
     "Islam/Misc/mufarrij al kurub.md",
