@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Tajdid/articles/idrissi- ego politics (taha).md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -35,7 +35,8 @@
               "title": "mufarrij-doc"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,10 +198,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4cbc261ef39c1e5c",
+  "active": "fbe6493bb2ebbf9b",
   "lastOpenFiles": [
-    "Islam/Misc/full text/mufarri-doc-en.md",
+    "Tajdid/articles/kasurian - attas.md",
+    "Islam/Arabuc/tasheel text.md",
+    "Islam/Arabuc",
     "Tajdid/articles/idrissi- ego politics (taha).md",
+    "Islam/Misc/full text/mufarri-doc-en.md",
     "Islam/Misc/full text/mufarrij-doc.md",
     "Islam/Misc/full text/mufarrij-en.md",
     "Islam/Misc/full text/mufarrij-ar.md",
@@ -229,12 +233,9 @@
     "madrasah",
     "lsg",
     "Tajdid/notes/said - orietalism.md",
-    "Tajdid/articles",
     "Tajdid/notes/jadaliyya - hallaq.md",
     "Islam/Quran/Tafsir Qurtubi vol. 1 - Memorise.md",
     "Islam/Videos/Khairabadi Institute - Sayyid Ma'an al Dabbagh.md",
-    "Philosophy/Videos/Professor Dave.md",
-    "Philosophy/Videos/Isagoge - Hamza Yusuf.md",
     "Islam/Videos/Untitled.canvas"
   ]
 }
