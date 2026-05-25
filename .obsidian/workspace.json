@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4a6efc0f5c0d39e2",
@@ -198,8 +197,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fbe6493bb2ebbf9b",
+  "active": "acb5ba3f0d398849",
   "lastOpenFiles": [
+    "Islam/Hajj & Umrah/Dump/website dump.md",
+    "Islam/Hajj & Umrah/Dump",
+    "Islam/Hajj & Umrah",
     "Islam/Misc/full text/mufarri-doc-en.md",
     "Untitled.base",
     "Islam/Misc/full text/mufarrij-doc.md",
@@ -230,8 +232,6 @@
     "Islam/misc random notes to look into.md",
     "lsg/companies house - gov uk.md",
     "madrasah/random useful stuff.md",
-    "madrasah",
-    "lsg",
     "Tajdid/notes/said - orietalism.md",
     "Tajdid/notes/jadaliyya - hallaq.md",
     "Islam/Quran/Tafsir Qurtubi vol. 1 - Memorise.md",
