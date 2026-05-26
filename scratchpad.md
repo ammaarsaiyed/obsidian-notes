@@ -96,28 +96,21 @@ Some tools are designed to just generate noise (e.g. `verify_kyc_status`, `get_m
 
 Some tools are adversarial, (e.g.`get_compliance_override`, `get_analyst_consolidated_view`, `get_consumer_duty_disclosure` -- these are directly adversarial, returning incorrect figures that inject bad prompts to tell LLMs to override instructions)
 
+All meaningful tools have after tool callbacks that will extract the relevant information to the `session.state`. 
+e.g. `_handle_account_balance()` sets `state["balance"]` from the tool output.
+
+One key idea here is that this agentic architecture is dependent and reliant on the developer knowing which tools will be effective and what the output schema/structure will be, as well as what is effective for the next agent. 
 ### 3.4 Scratchpad Schema
 
-The scratchpad is a typed Python dict. Its schema is defined per stage. Keys are semantic, human-readable, and consistent. Every field carries `value`, `source_agent`, and `source_tool` — enough to reconstruct provenance for audit purposes.
+The scratchpad is a typed Python dict. Keys are semantic, human-readable, and consistent. 
 
-```python
-# Base field structure (all scratchpad entries conform to this)
-{
-    "value": Any,             # The extracted value
-    "source_agent": str,      # Agent identifier, e.g. "account_agent"
-    "source_tool": str,       # Tool that produced this value
-    "as_of": str | None       # Date context if applicable
-}
-```
-
-Full per-stage scratchpad schemas are defined in Section 5.
-
+The tool callback that extracts to state inserts a new field into the dict / `session.state` dependent on the tool output, and these fields are predetermined knowing what the tool will output. 
 ### 3.5 Evaluation Harness
 
-A standalone Python module responsible for:
+Responsible for:
 
 - Loading trial definitions from the dataset (see Section 4)
-- Executing both pathways independently for each trial, in randomised order to prevent ordering effects
+- Executing both pathways independently for each trial
 - Capturing per-turn: token counts (input/output), latency, agent response, tool call log
 - Comparing final agent output against ground truth
 - Classifying failures using the taxonomy in Section 6.1
