@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Misc/full text/C - mufarrij-en-benefits.md",
+                "file": "readme.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C - mufarrij-en-benefits"
+              "title": "readme"
+            }
+          },
+          {
+            "id": "0fbd73b9f5bcc084",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "scratchpad.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "scratchpad"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5110321044922,
-    "collapsed": true
+    "width": 297.5110321044922
   },
   "right": {
     "id": "4a6efc0f5c0d39e2",
@@ -159,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/Misc/full text/mufarrij-doc.md",
+                "file": "scratchpad.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of mufarrij-doc"
+              "title": "Outline of scratchpad"
             }
           },
           {
@@ -179,12 +192,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,12 +210,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fbe6493bb2ebbf9b",
+  "active": "0fbd73b9f5bcc084",
   "lastOpenFiles": [
-    "Islam/Misc/full text/C - mufarrij-en.md",
+    "readme.md",
+    "scratchpad.md",
     "Islam/Misc/full text/C - mufarrij-en-benefits.md",
-    "Islam/Misc/full text/B - mufarrij-ar.md",
     "Islam/Misc/full text/A - mufarri-doc-en.md",
+    "Islam/Misc/full text/B - mufarrij-ar.md",
+    "Islam/Misc/full text/C - mufarrij-en.md",
     "Islam/Misc/mufarrij al kurub.md",
     "Tajdid/articles/kasurian - attas.md",
     "Islam/Hajj & Umrah/Dump/website dump.md",
@@ -221,8 +235,6 @@
     "Philosophy/Misc/Western shift to rationalism.md",
     "Tajdid/articles/strauss - the three waves of modernity.md",
     "Tajdid/articles/saif - between east and west.md",
-    "Untitled.md",
-    "readme.md",
     "Tajdid/thinkers.md",
     "baseline-softener.json",
     "Philosophy/technology/to read.md",
