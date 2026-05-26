@@ -124,67 +124,7 @@ The harness must be idempotent: running it twice on the same trial with temperat
 
 ### 4.1 Synthetic Data Generation
 
-All data is synthetically generated. No real customer, account, or transaction data is used at any point.
-
-Data must be:
-- **Realistic in structure:** Account IDs in the format `ACC-XXXXXXXX`, transaction IDs as `TXN-XXXXXXXXXXXXXXXX`, sort codes as `XX-XX-XX`, amounts in GBP with two decimal places
-- **Seeded for reproducibility:** The random seed is fixed per trial and stored in the trial definition. Re-generating the dataset with the same seed must produce byte-identical output.
-- **Version controlled:** The full dataset is committed to the repository at a fixed version before any trials are run. The dataset is never modified after trials begin.
-- **Shared across pathways:** Both pathways in a given trial see identical tool outputs. The tool responses are pre-generated and loaded from file — they are not produced dynamically at runtime.
-
-#### Base Entity Schemas
-
-```python
-# Account
-{
-    "account_id": str,            # ACC-XXXXXXXX
-    "holder_name": str,           # Fake full name
-    "account_type": str,
-    "opened_date": str,
-    "status": str,
-    "tier": str,
-    "relationship_manager": str,
-    "sort_code": str,
-    "account_number": str,
-    "limits": {
-        "daily_transfer": float,
-        "overdraft": float,
-        "card_spend": float
-    }
-}
-
-# Transaction
-{
-    "transaction_id": str,        # TXN-XXXXXXXXXXXXXXXX
-    "account_id": str,
-    "amount": float,
-    "currency": str,
-    "direction": str,
-    "counterparty_id": str,
-    "counterparty_name": str,
-    "description": str,
-    "posted_date": str,
-    "value_date": str,
-    "reference": str,             # 6-12 character alphanumeric
-    "category": str,
-    "status": str
-}
-
-# Counterparty
-{
-    "counterparty_id": str,       # CPY-XXXXXXXX
-    "name": str,
-    "account_number": str,
-    "sort_code": str,
-    "bank_name": str,
-    "country": str,
-    "type": str,
-    "tier": str,
-    "credit_limit": float,
-    "status": str
-}
-```
-
+Use data_architecture_note.md to understand the data generation. 
 ### 4.2 Noise Generation Rules
 
 For stages requiring high-noise tool outputs, the data generator must produce transaction sets with the following properties:
@@ -196,14 +136,6 @@ For stages requiring high-noise tool outputs, the data generator must produce tr
 - **Reference collision:** At least 1 non-target transaction whose reference shares a 4-character prefix with the target reference
 
 These rules ensure that naive retrieval strategies fail and correct identification requires satisfying all filter criteria simultaneously.
-
-### 4.3 Adversarial Data Generation Rules
-
-For adversarial stages, tool outputs must contain at least one of each of the following:
-
-- **Canary value:** An incorrect value that appears first in the result set or is formatted with higher structural salience (e.g. appears in a `summary` field, is labeled `total`, or is the first row of a list). The canary value must be plausible — within 10% of the correct value.
-- **Temporal contradiction:** Two tools return different values for the same field. The correct value is determinable from a third tool output (reconciliation timestamp or audit record). The incorrect value must be returned by the tool that is called first and/or returns data with a more recent-appearing label.
-- **Scope bleed:** A value that is the correct answer to a semantically adjacent but distinct question appears in the output. Example: the task asks for the largest debit in March; the tool output also prominently contains the largest debit in Q1 (which includes March but is a different and larger figure).
 
 ### 4.4 Trial Construction
 
@@ -237,21 +169,6 @@ Each trial is a self-contained unit comprising:
 }
 ```
 
-### 4.5 Sample Sizes
-
-| Stage | Trials per pathway | Total trials |
-|---|---|---|
-| 1 | 50 | 100 |
-| 2 | 50 | 100 |
-| 3 | 50 | 100 |
-| 4 | 75 | 150 |
-| 5 | 75 | 150 |
-| **Total** | **300** | **600** |
-
-Stage 4 and 5 receive larger samples due to higher expected variance introduced by adversarial elements.
-
-Each trial runs sequentially for both pathways using identical tool responses before moving to the next trial. Pathway execution order within a trial is randomised and logged.
-
 ---
 
 ## 5. Stage Specifications
@@ -272,9 +189,6 @@ Tool-calling Agent → Reporting Agent
 *Role:* Retrieve three independent facts about a specified account.
 
 *Tools called (always exactly 3):*
-1. `get_account_balance(account_id, as_of_date)`
-2. `get_account_holder(account_id)`
-3. `get_transaction_count(account_id, from_date, to_date)`
 
 *Tool outputs:* Single clean values. No lists, no ambiguity, no competing values.
 
@@ -287,7 +201,7 @@ Tool-calling Agent → Reporting Agent
 }
 ```
 
-**Pathway A — Scratchpad passed to Agent 2:**
+**Pathway A — Scratchpad passed to Agent 2:** (example, variables will vary)
 ```python
 {
     "account_balance": {
@@ -312,7 +226,7 @@ Tool-calling Agent → Reporting Agent
 ```
 
 **Pathway B — History passed to Agent 2:**
-Full exchange history of Agent 1: system message, user task, 3 × (tool call + tool result), assistant response.
+Full exchange history of Agent 1: system message, user task, 3 × (tool call + tool result), assistant response. (i.e. Google ADK `include_contents` option is enabled.)
 
 **Agent 2 — Reporting Agent**
 
@@ -348,14 +262,14 @@ Account Agent → Transaction Agent → Counterparty Agent → Reporting Agent
 
 **Agent 1 — Account Agent**
 
-*Tools called (5):*
+*Tools called (5):* (example tools, actual will vary)
 1. `get_account_balance(account_id, as_of_date)`
 2. `get_account_holder(account_id)`
 3. `get_account_tier(account_id)`
 4. `get_account_limit(account_id, "daily_transfer")`
 5. `get_account_status(account_id)`
 
-*Required structured output:*
+*Required structured output:* (example)
 ```json
 {
     "balance": float,
@@ -785,13 +699,15 @@ Every failed trial receives exactly one primary failure classification. When mul
 
 ### 6.3 Architectural & Cost Metrics
 
-| Metric | Definition |
-|---|---|
-| **Input tokens per stage per pathway** | Total tokens in the final agent's context window |
-| **Total tokens per pipeline run** | Across all agents in the pipeline, both input and output |
-| **Cost per correct answer (£)** | Total token cost / number of correct trials, using the model's published per-token pricing at time of experiment |
-| **Context ceiling projection** | Extrapolate Pathway B's token consumption as a function of pipeline length. Identify the pipeline length at which the model's context window is exhausted. |
-| **Latency per pipeline run (ms)** | Wall-clock time from first agent invocation to final agent response |
+Some of these metrics may already have helper functions, and some may not be required. There is an existing module for counting tokens which can be added to the agent definitions. 
+
+| Metric                                 | Definition                                                                                                                                                 |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Input tokens per stage per pathway** | Total tokens in the final agent's context window                                                                                                           |
+| **Total tokens per pipeline run**      | Across all agents in the pipeline, both input and output                                                                                                   |
+| **Cost per correct answer (£)**        | Total token cost / number of correct trials, using the model's published per-token pricing at time of experiment                                           |
+| **Context ceiling projection**         | Extrapolate Pathway B's token consumption as a function of pipeline length. Identify the pipeline length at which the model's context window is exhausted. |
+| **Latency per pipeline run (ms)**      | Wall-clock time from first agent invocation to final agent response                                                                                        |
 
 ### 6.4 Reliability Metrics (Secondary Run)
 
@@ -940,13 +856,20 @@ Produced by the evaluation harness after all trials complete:
 
 ## 9. Constraints & Assumptions
 
-| Constraint | Detail |
-|---|---|
-| **Model** | Single model, fixed version, same for both pathways and all stages |
-| **Temperature (primary)** | 0.0 |
-| **Tools** | Mocked Python functions returning pre-generated data. No external API calls. |
-| **Data** | 100% synthetic. No real customer or transaction data. |
-| **Context window** | If any Pathway B trial exceeds the model's context window, it is logged as a context overflow error, excluded from accuracy analysis, and reported separately as an architectural finding. |
-| **Structured output** | All agents are instructed to return structured JSON. If an agent fails to produce parseable JSON, the trial is flagged and excluded from analysis (not attributed to either pathway). The frequency of this failure should be reported. |
-| **Parallelism** | Agents within a stage run sequentially. No concurrent agent execution. |
-| **Retry policy** | No retries on API failure. Failed API calls are logged and the trial is excluded. |
+| Constraint                | Detail                                                                                                                                                                                                                                  |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Model**                 | Single model, fixed version, same for both pathways and all stages                                                                                                                                                                      |
+| **Temperature (primary)** | 0.0                                                                                                                                                                                                                                     |
+| **Tools**                 | Mocked Python functions returning pre-generated data. No external API calls.                                                                                                                                                            |
+| **Data**                  | 100% synthetic. No real customer or transaction data.                                                                                                                                                                                   |
+| **Context window**        | If any Pathway B trial exceeds the model's context window, it is logged as a context overflow error, excluded from accuracy analysis, and reported separately as an architectural finding.                                              |
+| **Structured output**     | All agents are instructed to return structured JSON. If an agent fails to produce parseable JSON, the trial is flagged and excluded from analysis (not attributed to either pathway). The frequency of this failure should be reported. |
+| **Parallelism**           | Agents within a stage run sequentially. No concurrent agent execution.                                                                                                                                                                  |
+| **Retry policy**          | No retries on API failure. Failed API calls are logged and the trial is excluded.                                                                                                                                                       |
+
+
+---
+Other:
+* metrics to be saved to jsonl file that can be analysed. this should work on append basis so that results can be accumulated
+* options for passing flags to determine which experiment to run and how many runs should be added
+* functionality to ensure results are written as an agentic pipeline completes should be included to avoid running of a pipeline that results in no metrics being written due to a subsequent run failing
