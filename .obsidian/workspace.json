@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tajdid/articles/kasurian - attas.md",
-                "mode": "source",
+                "file": "readme.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "kasurian - attas"
+              "title": "readme"
+            }
+          },
+          {
+            "id": "0fbd73b9f5bcc084",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Islam/Misc/full text/A - mufarrij-doc-ar.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "A - mufarrij-doc-ar"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 297.5110321044922
   },
   "right": {
     "id": "4a6efc0f5c0d39e2",
@@ -159,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/Misc/full text/mufarrij-doc.md",
+                "file": "Islam/Misc/full text/A - mufarrij-doc-ar.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of mufarrij-doc"
+              "title": "Outline of A - mufarrij-doc-ar"
             }
           },
           {
@@ -179,12 +192,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,18 +210,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fbe6493bb2ebbf9b",
+  "active": "0fbd73b9f5bcc084",
   "lastOpenFiles": [
-    "Islam/Misc/full text/mufarri-doc-en.md",
-    "Untitled.base",
-    "Islam/Misc/full text/mufarrij-doc.md",
-    "Tajdid/articles/idrissi- ego politics (taha).md",
+    "Islam/Misc/full text/C - mufarrij-en-benefits.md",
+    "Islam/Misc/full text/A - mufarri-doc-en.md",
+    "scratchpad.md",
+    "readme.md",
+    "Islam/Misc/full text/B - mufarrij-ar.md",
+    "Islam/Misc/full text/C - mufarrij-en.md",
+    "Islam/Misc/mufarrij al kurub.md",
     "Tajdid/articles/kasurian - attas.md",
+    "Islam/Hajj & Umrah/Dump/website dump.md",
+    "Islam/Hajj & Umrah/Dump",
+    "Islam/Hajj & Umrah",
+    "Untitled.base",
+    "Islam/Misc/full text/A - mufarrij-doc-ar.md",
+    "Tajdid/articles/idrissi- ego politics (taha).md",
     "Islam/Arabuc/tasheel text.md",
     "Islam/Arabuc",
-    "Islam/Misc/full text/mufarrij-en.md",
-    "Islam/Misc/full text/mufarrij-ar.md",
-    "Islam/Misc/mufarrij al kurub.md",
     "Philosophy/Foundational/To Read.md",
     "Philosophy/Misc/Hume's Problem of Induction.md",
     "Philosophy/Foundational",
@@ -217,8 +235,6 @@
     "Philosophy/Misc/Western shift to rationalism.md",
     "Tajdid/articles/strauss - the three waves of modernity.md",
     "Tajdid/articles/saif - between east and west.md",
-    "Untitled.md",
-    "readme.md",
     "Tajdid/thinkers.md",
     "baseline-softener.json",
     "Philosophy/technology/to read.md",
@@ -230,11 +246,8 @@
     "Islam/misc random notes to look into.md",
     "lsg/companies house - gov uk.md",
     "madrasah/random useful stuff.md",
-    "madrasah",
-    "lsg",
     "Tajdid/notes/said - orietalism.md",
     "Tajdid/notes/jadaliyya - hallaq.md",
-    "Islam/Quran/Tafsir Qurtubi vol. 1 - Memorise.md",
     "Islam/Videos/Untitled.canvas"
   ]
 }
