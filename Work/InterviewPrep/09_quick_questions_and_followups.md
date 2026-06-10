@@ -1,4 +1,4 @@
-﻿## Likely Direct Questions And Short Answers
+## Likely Direct Questions And Short Answers
 
 Q: What are your top three strengths for this role?
 
@@ -64,13 +64,45 @@ Q: How would you explain explainability?
 
 ### Role And Motivation
 
-- Why this role now?
-- Why should we choose you over someone with more formal lead engineer experience?
-- How would you describe the difference between data science, ML engineering and AI engineering?
-- What would you want to achieve in your first 30, 60 and 90 days?
-- What do you think Advanced AI Engineering should avoid?
-- What do you think Lloyds should be bold about in AI?
-- What makes you credible inside Lloyds already?
+Q: Why this role now?
+
+> This role feels like the natural next step because my recent placements have converged on exactly this space: hands-on agentic AI in Hive, production GenAI engineering in Colleague Channels, and governed GCP data products in EDP. I have learned that the part I enjoy most is not only modelling or analysis, but turning ambiguous AI opportunities into working, evaluated, operationally credible systems. Advanced AI Engineering looks like the place where that becomes the core mission rather than a side of the role.
+
+Q: Why should we choose you over someone with more formal lead engineer experience?
+
+> I would be honest that others may have held the title longer, but my differentiator is the combination of relevant hands-on experience inside Lloyds. I have built agentic AI MVPs, improved production LLM serving, worked with GCP data products, used CI/CD and observability tooling, and understand the bank's regulated environment. I can bring strong technical ownership now, while continuing to grow the formal leadership side through mentoring, architecture influence and reusable engineering patterns.
+
+Q: How would you describe the difference between data science, ML engineering and AI engineering?
+
+> Data science is primarily about using data, statistics and modelling to understand problems and support decisions. ML engineering is about making models reliable, deployable, monitored and maintainable in production. AI engineering includes those skills but extends into foundation models, RAG, tool use, agents, guardrails, evaluation, orchestration and human-in-the-loop workflows. This role feels closer to AI engineering because the challenge is building useful AI capabilities that can be safely adopted across business areas.
+
+Q: What would you want to achieve in your first 30, 60 and 90 days?
+
+> In the first 30 days, I would understand the team's current MVPs, technical patterns, stakeholder map, risk process and platform constraints. By 60 days, I would want to be contributing hands-on to one or two active AI MVPs, especially around evaluation, tool use, operational readiness or implementation. By 90 days, I would aim to have shipped a meaningful contribution, documented at least one reusable pattern, and built trust with engineering, architecture, product and risk partners.
+
+Q: What do you think Advanced AI Engineering should avoid?
+
+> It should avoid building impressive demos that cannot become operational MVPs. The team should also avoid using agents where simpler patterns are safer, treating evaluation as an afterthought, or designing solutions that business engineering teams cannot own. The strongest version of the team will be bold in exploring new AI capability, but disciplined about evidence, controls, handoff and customer impact.
+
+Q: What do you think Lloyds should be bold about in AI?
+
+> Lloyds should be bold about using AI to improve colleague workflows and customer outcomes where the value is clear: complaint resolution, knowledge retrieval, operational efficiency, decision support and better use of trusted data products. But the boldness should be responsible. The opportunity is not to automate everything; it is to build AI systems that help colleagues make better, faster and more consistent decisions with evidence, oversight and trust.
+
+Q: What makes you credible inside Lloyds already?
+
+> I have already worked across several relevant Lloyds contexts: customer resolutions, Hive agentic AI, Colleague Channels production GenAI, and EDP data products. I understand some of the internal constraints around data, platforms, CI/CD, monitoring, security and governance. That means I can contribute quickly because I am not learning the bank from scratch, but I still bring curiosity and momentum from having worked across different teams.
+
+Q: What genuinely interests you about this role?
+
+> I am drawn to the mix of research and building. I enjoy reading, experimenting and understanding new AI methods, but I am most motivated when that turns into something real: a prototype, an MVP, a reusable module, an evaluation approach or a pattern another team can scale. This role seems to value both curiosity and engineering judgement, which is the combination I want to keep developing.
+
+Q: Which part of the role do you think would stretch you most?
+
+> The biggest stretch would probably be operating at broader lead-engineer scope: influencing technical direction across teams, partnering more directly with Enterprise Architecture and shaping patterns that other teams adopt. That is also part of why I want the role. I already have the hands-on AI and production engineering base, and I want to grow that into wider technical leadership.
+
+Q: Why not stay focused on a pure data science or ML role?
+
+> I still value data science and ML, but I have realised that my strongest interest is in the full engineering lifecycle around AI systems. I like the modelling and evaluation, but I also care about architecture, tool integration, deployment, monitoring, risk, user workflow and handoff. A pure data science role would use part of that skill set; this role uses the whole shape of what I have been building toward.
 
 ### Agentic AI And GenAI
 
